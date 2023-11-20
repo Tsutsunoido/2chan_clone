@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* common */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+body {
+  background: rgb(214, 255, 241);
+}
+
+
+/* header */
+header {
+  text-align: center;
+}
+
+header .title {
+  border-bottom: 4px solid black;
+  padding: 8px 0;
+}
+
+/* error */
+ul.errorMessage {
+  color: red;
+}
+
+/* thread */
+.threadWrapper {
+  background: rgb(255, 213, 134);
+  border: 2px solid black;
+  width: calc(100% - 64px);
+  margin: 32px auto;
+  max-width: 800px;
+  padding: 8px;
+}
+
+.childWrapper {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+.threadTitle {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.threadTitle h1 {
+  font-size: 24px;
+  color: red;
+}
+
+section {
+  margin: 0 8px;
+}
+
+article + article {
+  margin-top: 12px;
+}
+
+.wrapper .nameArea {
+  display: flex;
+  gap: 8px;
+}
+
+.wrapper .username {
+  color: green;
+  font-weight: bold;
+}
+
+.formWrapper {
+  margin: 8px;
+}
+
+.formWrapper div + div {
+  margin-top: 8px;
+}
+
+.formWrapper .commentTextArea {
+  width: 350px;
+  height: 80px;
+}
+
+/* newThread */
+.newThreadWrapper {
+  background: rgb(255, 213, 134);
+  border: 2px solid black;
+  width: calc(100% - 64px);
+  margin: 32px auto;
+  max-width: 800px;
+  padding: 8px;
+}
+
+.newChildThreadWrapper {
+  text-align: center;
+  border: 2px solid black;
+  padding: 8px;
+}
+
+.newChildThreadWrapper a {
+  text-decoration: none;
+  color: black;
+}
+
